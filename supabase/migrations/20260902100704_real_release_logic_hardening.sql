@@ -1,4 +1,4 @@
--- This migration mirrors the logic-hardening section in ../schema.sql.
+-- Migration for profiles, posts, social tables and RLS policies.
 -- It is safe to re-run against the existing real-release database.
 
 create schema if not exists private;
