@@ -2,6 +2,11 @@
   "name": "bailanysta",
   "main": "expo-router/entry",
   "version": "1.0.0",
+  "author": "loadcosmos",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loadcosmos/bailanysta.git"
+  },
   "dependencies": {
     "@expo/ui": "~57.0.15",
     "@expo/vector-icons": "^15.0.2",
