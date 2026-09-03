@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Bailanysta",
+    "slug": "bailanysta",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "bailanysta",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "icon": "./assets/images/icon.png",
+      "bundleIdentifier": "com.loadcosmos.bailanysta",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.loadcosmos.bailanysta",
+      "adaptiveIcon": {
+        "backgroundColor": "#C8F8F6",
+        "foregroundImage": "./assets/images/icon.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#C8F8F6",
+          "image": "./assets/images/icon.png",
+          "imageWidth": 92
+        }
+      ],
+      "expo-secure-store",
+      "expo-font",
+      "expo-image"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "cc346004-2e7a-439d-8f2a-08991ab8cfb2"
+      }
+    },
+    "owner": "xtqia"
+  }
+}

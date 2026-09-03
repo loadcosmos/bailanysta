@@ -1,0 +1,12 @@
+{
+  "buildCommand": "npm run export:web",
+  "cleanUrls": true,
+  "outputDirectory": "dist",
+  "framework": null,
+  "rewrites": [
+    { "source": "/api/ai", "destination": "/api/auth?route=ai" },
+    { "source": "/api/auth/session/refresh", "destination": "/api/auth?route=session/refresh" },
+    { "source": "/api/auth/signout", "destination": "/api/auth?route=signout" },
+    { "source": "/api/auth/google/:path*", "destination": "/api/auth?route=google/:path*" }
+  ]
+}
